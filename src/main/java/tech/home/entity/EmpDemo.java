@@ -14,6 +14,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 //This is EmpDemo Entity
+//and im testing this whether working or not
 @Entity
 @Table(name="emp_demo")
 public class EmpDemo implements Serializable{
