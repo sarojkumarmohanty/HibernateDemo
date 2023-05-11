@@ -30,11 +30,7 @@ public class EmpDemo implements Serializable{
 	
 	@Column(name="hire_date")
 	private Date hireDate;
-	
-//	@Column(name="department_id")
-//	private Integer departmentId;
-	
-	
+
 	@ManyToOne
 	@JoinColumn(name = "department_id")
 	private DeptDemo deptDemo;
