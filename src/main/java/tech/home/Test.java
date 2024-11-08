@@ -19,6 +19,7 @@ public class Test {
 		//select * from emp_demo;
 		//adding some demo lines
 		//adding third demo line
+		//forth line
 		final String seQuery="SELECT employeeId,lastName FROM EmpDemo WHERE departmentId=?1 and salary > ?2";
 		
 		Configuration configuration = new Configuration();
