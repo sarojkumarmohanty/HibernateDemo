@@ -16,7 +16,7 @@ import tech.home.entity.Passport;
 public class Test {
 
 	public static void main(String[] args) {
-		//select * from emp_demo;
+		//select * from emp;
 		final String seQuery="SELECT employeeId,lastName FROM EmpDemo WHERE departmentId=?1 and salary > ?2";
 		
 		Configuration configuration = new Configuration();
