@@ -20,6 +20,7 @@ public class Test {
 		//adding some demo lines
 		//adding third demo line
 		//forth line
+		//fifth line
 		final String seQuery="SELECT employeeId,lastName FROM EmpDemo WHERE departmentId=?1 and salary > ?2";
 		
 		Configuration configuration = new Configuration();
